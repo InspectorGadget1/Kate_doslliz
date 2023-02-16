@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Досліз</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header">
+                <img src="./images/kittyLogo.png" alt="" class="header__logo">
+                <nav id="nav-menu" class="header-menu">
+                    <ul>
+                        <li class="header-menu__item"><a href="" onclick="return confirm('НЕ ТИКАЙ!!!');"
+                                class="header-menu__link">Kopen</a></li>
+                        <li class="header-menu__item"><a href="" onclick="return confirm('НЕ ТИКАЙ!!!');"
+                                class="header-menu__link">Huren</a></li>
+                        <li class="header-menu__item"><a href="" onclick="return confirm('НЕ ТИКАЙ!!!');"
+                                class="header-menu__link">Modellen</a></li>
+                        <li class="header-menu__item"><a href="" onclick="return confirm('НЕ ТИКАЙ!!!');"
+                                class="header-menu__link">Nieuws</a></li>
+                    </ul>
+                    <button id="nudesButton" class="header-menu__button button">Нюдси</button>
+                </nav>
+                <div class="header-menu__button_mobile" onclick="toggleMenu()">
+                    <img src="images/menu-icon.svg" alt="Menu icon">
+                </div>
+            </header>
+            <div class="hero-block">
+                <div class="hero-content">
+                    <p class="hero__lable">Від Андрійка</p>
+                    <h2 class="hero__title title">Привіт, Катю, тут невеличка інструкція як приготувати рамен. Запасайся
+                        молоком і в три часа почнеться</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="materials">
+        <div class="container">
+            <div class="materials-block">
+                <div class="materials-content">
+                    <h2 class="materials__title title">З чого почати</h2>
+                    <p class="materials__description paragraph">Це буде справді гаряче! Звичайно можна заварити не
+                        гостру, але лол ми ж прийшли повеселитись на етер, тому пропоную приготувати Buldak Kimchi</p>
+                </div>
+                <img src="./images/kimchi.webp" alt="" class="materials-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="innovative">
+        <div class="container">
+            <h2 class="innovative__title title">P.S.</h2>
+            <div class="innovative-content">
+                <p class="paragraph">Ці рамени подорожували зі Львова в Київ і назад. Пройшли зі мною 90км по Київським
+                    вуличкам і навіть побувала на лівому березі з надією зустріти Тебе. Дякую НП за доставку, надіюсь
+                    вони не розтрощені.</p>
+                <p class="paragraph">Сподіваюсь ви сильно не крінжанули з цього лендінгу, в оправдання скажу, що робив його
+                    для лабки в політех і переробив під рамен за 30хв. Коржик ParadiseC2 не сварись за дизайн</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-block">
+                <img src="./images/smak.jpg" alt="" class="advantages__image">
+                <div class="advantages-content">
+                    <div class="advantages-content__row">
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">First step</h3>
+                            <p class="paragraph">Закип'яти в банячку 600 мілілітрів водички</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">Second step </h3>
+                            <p class="paragraph">Закинь локшину і овочі</p>
+                        </div>
+                    </div>
+                    <div class="advantages-content__row">
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">Thrird step
+                            </h3>
+                            <p class="paragraph">Вари 5 хвилин</p>
+                            <div id="timer" class="timer">
+                                <label id="minutes">05</label>
+                                <label id="colon">:</label>
+                                <label id="seconds">00</label>
+                            </div>
+                            <button id="timerButton" class="timer__button button">Start timer</button>
+                        </div>
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">Forth step</h3>
+                            <p class="paragraph">Злий водичку, але залиш трішки (приблизно 3 ложечки)</p>
+                        </div>
+                    </div>
+                    <div class="advantages-content__row">
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">Fifth step</h3>
+                            <p class="paragraph">Залий соус і ретельно перемішай
+                            </p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <h3 class="advantages-content__title">Six step</h3>
+                            <p class="paragraph">Зупка готова, насолоджуйся</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="https://t.me/Insp_Gadget" class="footer__contact">@Insp_Gadget</a>
+        <img src="./images/kittyLogo.png" alt="" class="footer__logo">
+        <nav class="footer-menu">
+            <ul>
+                <li class="footer-menu__item"><a href="http://" class="footer-menu__link">Катя няшка в чат</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
