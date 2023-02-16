@@ -31,6 +31,7 @@ function setTime() {
   if (totalSeconds == 0) {
     clearInterval(intervalId);
     audio.play();
+    alert("Пора зливати водичку!!!");
   }
 }
 
